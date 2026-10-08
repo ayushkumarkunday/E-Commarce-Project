@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f5f7;
+  color: #222;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card,
+.product {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 3px 14px rgba(0,0,0,.08);
+}
+
+.card {
+  max-width: 500px;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input,
+button {
+  padding: 11px 13px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+  background: #111;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  opacity: .9;
+}
+
+.link {
+  margin-top: 12px;
+  background: transparent;
+  color: #2563eb;
+  padding-left: 0;
+}
+
+.message {
+  background: #fff3cd;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.product button {
+  margin-top: 12px;
+}
